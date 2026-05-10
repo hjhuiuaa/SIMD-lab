@@ -9,9 +9,10 @@ ann/main
 **/*.fbin
 ann/anndata/*.bin
 
-# 实验报告（LaTeX 源与编译产物）
-实验报告*.tex
+# 实验报告与根目录 LaTeX（*.tex 仅忽略仓库根，避免误伤子目录中极少见的 .tex）
+/*.tex
 *_Lab2_ANN.tex
+**/*实验报告*.tex
 *.aux
 *.log
 *.out

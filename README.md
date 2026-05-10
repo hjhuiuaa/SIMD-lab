@@ -1,9 +1,15 @@
-# SIMD-lab（并行程序设计 Lab2）
+# SIMD-lab
 
-近似最近邻（ANN）检索实验：**NEON SIMD**、OpenMP、Flat / SQ / PQ（ADC、SDC、FastScan）/ IVF-PQ，及 Top-$p$、Top-$R$ 全精度重排。
+并行程序设计 **Lab2：ANN + SIMD** 的**源代码仓库**（Flat / SQ / PQ / IVF-PQ 等）。
 
-- **可执行与说明**：[`ann/`](ann/)（`main.cc`、头文件、`README.md` 含 mode 0–7 参数表）
-- **实验报告**：[`实验报告_Lab2_ANN.tex`](实验报告_Lab2_ANN.tex)
-- **推送说明**：[GITHUB_PUSH.md](GITHUB_PUSH.md)
+## 说明读哪里
 
-数据集请按 [`ann/anndata/README.md`](ann/anndata/README.md) 自行放置 `*.fbin` / `*.bin`，勿提交大文件。
+| 内容 | 位置 |
+|------|------|
+| **主要 README（编译、数据路径、mode 0–7 参数表）** | **[`ann/README.md`](ann/README.md)** |
+| 数据放置说明 | [`ann/anndata/README.md`](ann/anndata/README.md) |
+| 推送到 GitHub 的备忘 | [`GITHUB_PUSH.md`](GITHUB_PUSH.md) |
+
+本仓库**不包含**实验报告 LaTeX、课程 PDF、折线图等（见根目录 [`.gitignore`](.gitignore)）；这些文件请保留在本地，勿 `git add -f` 强制加入。
+
+实现代码在 [`ann/`](ann/)（`main.cc` 与各 `*.h`）。

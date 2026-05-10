@@ -1,5 +1,7 @@
 # ANN SIMD 检索实验（Lab2）
 
+**→ 本目录 [`README.md`](README.md) 是本仓库的主要说明文档**（编译、数据集、`./main` 的 mode 与参数）。仓库根目录 [`README.md`](../README.md) 仅作索引。
+
 基于 SIMD（NEON / 可移植回退）与 OpenMP 的近似最近邻检索 demo：Flat、SQ、PQ（ADC / SDC / FastScan）、IVF-PQ，以及 Top-$p$ / Top-$R$ 全精度重排。
 
 ## 编译
