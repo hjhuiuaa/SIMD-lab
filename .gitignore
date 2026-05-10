@@ -7,6 +7,13 @@ ann/main
 
 # 数据集二进制（勿提交大文件）
 **/*.fbin
+ann/anndata/*.bin
+
+# 课程文档（勿提交）；实验图例外
+*.pdf
+!plot_fastscan_r_tradeoff.pdf
+_simdlu.zip
+_simdlu_unzip/
 
 # VTune 工程与采样结果（体积大、可本地再生）
 ann/ANN-SIMD-lab/
@@ -22,8 +29,6 @@ ann/ANN-SIMD-lab/
 
 # 课程课件（勿公开上传）
 *.pptx
-
-# 临时解压
 _pptx_extract/
 _ppt.zip
 
