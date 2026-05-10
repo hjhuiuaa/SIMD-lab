@@ -9,28 +9,34 @@ ann/main
 **/*.fbin
 ann/anndata/*.bin
 
-# 课程文档（勿提交）；实验图例外
-*.pdf
-!plot_fastscan_r_tradeoff.pdf
-_simdlu.zip
-_simdlu_unzip/
-
-# VTune 工程与采样结果（体积大、可本地再生）
-ann/ANN-SIMD-lab/
-**/*.vtuneproj
-**/*.vtune
-
-# LaTeX 辅助文件（保留 .tex 源码）
+# 实验报告（LaTeX 源与编译产物）
+实验报告*.tex
+*_Lab2_ANN.tex
 *.aux
 *.log
 *.out
 *.toc
 *.synctex.gz
 
-# 课程课件（勿公开上传）
+# 课程指导书 / 讲义等 PDF
+*.pdf
+
+# 折线图脚本与导出图
+plot_fastscan_r_tradeoff.pdf
+plot_fastscan_r_tradeoff.png
+plot_fastscan_r_tradeoff.py
+
+# 临时打包与课件
+_simdlu.zip
+_simdlu_unzip/
 *.pptx
 _pptx_extract/
 _ppt.zip
+
+# VTune 工程与采样结果（体积大、可本地再生）
+ann/ANN-SIMD-lab/
+**/*.vtuneproj
+**/*.vtune
 
 .DS_Store
 Thumbs.db
