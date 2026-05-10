@@ -1,0 +1,31 @@
+# 构建产物
+*.exe
+*.o
+a.out
+main
+ann/main
+
+# 数据集二进制（勿提交大文件）
+**/*.fbin
+
+# VTune 工程与采样结果（体积大、可本地再生）
+ann/ANN-SIMD-lab/
+**/*.vtuneproj
+**/*.vtune
+
+# LaTeX 辅助文件（保留 .tex 源码）
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# 课程课件（勿公开上传）
+*.pptx
+
+# 临时解压
+_pptx_extract/
+_ppt.zip
+
+.DS_Store
+Thumbs.db
